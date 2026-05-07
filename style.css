@@ -1,0 +1,97 @@
+body {
+
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+.hero {
+
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+h1 {
+
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 6px;
+  letter-spacing: 2px;
+}
+
+.author {
+
+  color: gray;
+  font-size: 14px;
+}
+
+.button-group {
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+button {
+
+  padding: 20px;
+  border: none;
+  border-radius: 16px;
+  font-size: 22px;
+  font-weight: bold;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+
+  opacity: 0.92;
+}
+
+.card {
+
+  margin-top: 30px;
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+}
+
+input {
+
+  width: 100%;
+  padding: 14px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+label {
+
+  display: block;
+  margin-top: 14px;
+}
+
+.result {
+
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+ul {
+
+  margin-top: 20px;
+}
