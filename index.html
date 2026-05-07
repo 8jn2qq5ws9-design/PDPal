@@ -1,60 +1,64 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+
+<html lang="en">
 
 <head>
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-  
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="apple-mobile-web-app-capable"
+        content="yes">
+
+  <meta name="mobile-web-app-capable"
+        content="yes">
+
   <title>PD Pal</title>
 
-  <link rel="manifest" href="manifest.json">
-  <link rel="stylesheet" href="style.css">
+  <link rel="manifest"
+        href="manifest.json">
 
-  <script>
-    if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("service-worker.js");
-    }
-  </script>
+  <link rel="stylesheet"
+        href="style.css">
+
 </head>
 
 <body>
 
-<body>
+  <div class="scroll-wrapper">
 
-<div class="scroll-wrapper">
+    <div class="container">
 
-  <div class="container">
+      <div class="hero">
 
-    <div class="hero">
+        <h1>PD Pal</h1>
 
-      <h1>PD Pal</h1>
+        <p class="author">M Neyaz</p>
 
-      <p class="author">M Neyaz</p>
+      </div>
+
+      <div class="button-group">
+
+        <button onclick="showPeritonitis()">
+          PD Peritonitis Risk
+        </button>
+
+        <button onclick="showKTV()">
+          PD Kt/V Fixer
+        </button>
+
+      </div>
+
+      <div id="content"></div>
 
     </div>
-
-    <div class="button-group">
-
-      <button onclick="showPeritonitis()">
-        PD Peritonitis Risk
-      </button>
-
-      <button onclick="showKTV()">
-        PD Kt/V Fixer
-      </button>
-
-    </div>
-
-    <div id="content"></div>
 
   </div>
 
-</div>
-
-<script src="app.js"></script>
+  <script src="app.js"></script>
 
 </body>
-</body>
+
 </html>
