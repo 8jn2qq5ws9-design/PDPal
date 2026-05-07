@@ -1,3 +1,11 @@
+html, body {
+
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+
 body {
 
   font-family: Arial, sans-serif;
@@ -8,9 +16,14 @@ body {
 
 .container {
 
+ .container {
+
   max-width: 800px;
   margin: auto;
   padding: 30px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
 }
 
 .hero {
